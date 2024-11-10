@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full bg-blue-500 text-white py-3 shadow-md"> {/* Simple blue background */}
+    <header className="w-full bg-white text-black py-3 shadow-lg"> {/* Simple blue background */}
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-semibold tracking-tight transform transition duration-300 ease-in-out hover:scale-105">
           <Link to='/'>
@@ -16,7 +16,7 @@ const Header = () => {
           Course Teacher : 
           <a 
             href="https://www.linkedin.com/in/dr-arifatul-kibria-a14705b/" 
-            className="underline text-pink-300 hover:text-yellow-400 transition duration-200"
+            className="underline transition duration-200"
           >
             DR. ARIFATUL KIBRIA
           </a>
