@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="w-full bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white py-8 shadow-md">
+    <header className="w-full bg-blue-500 text-white py-8 shadow-md"> {/* Simple blue background */}
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-semibold tracking-tight transform transition duration-300 ease-in-out hover:scale-105">
           <Link to='/'>
-          BS Quiz App
+            BS Quiz App
           </Link>
         </h1>
         <p className="text-lg mt-3 opacity-90">
