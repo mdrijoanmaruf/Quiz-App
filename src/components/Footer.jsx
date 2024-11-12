@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="space-y-6">
           <h3 className="text-2xl font-semibold">BS Quiz App</h3>
           <p className="text-sm opacity-90">
-            Challenge yourself with our Mughal Empire quiz and test your knowledge!
+            Challenge yourself with our BS quiz and test your knowledge!
           </p>
 
           {/* Social Media Links */}
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Contact and Developer Info */}
           <div className="text-sm mt-6 space-y-2 opacity-90">
-            <p>Contact: rijoanmaruf@gmail.com | +8801813606468</p>
+            <p>Contact: rijoanmaruf@gmail.com </p>
             <p>Developed by <a href="https://rijoan.com" className="font-bold hover:underline">Md Rijoan Maruf</a></p>
             <p>© 2024 BS Quiz App. All rights reserved.</p>
           </div>

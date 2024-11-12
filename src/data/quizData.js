@@ -203,6 +203,59 @@ const quizData1 = [
       answer: "B) Marathas",
     },
   ];
+
+  export const quizData3 = [
+    {
+      question: "Who was the founder of the Mughal Empire?",
+      options: ["A) Humayun", "B) Akbar", "C) Babur", "D) Aurangzeb"],
+      answer: "C) Babur",
+    },
+    {
+      question: "Which empire did Sher Shah Suri defeat Humayun to establish?",
+      options: ["A) Delhi Sultanate", "B) Sur Empire", "C) Vijayanagara Empire", "D) Gupta Empire"],
+      answer: "B) Sur Empire",
+    },
+    {
+      question: "Which Mughal emperor is known for his policy of religious tolerance and forming 'Din-i Ilahi'?",
+      options: ["A) Akbar", "B) Aurangzeb", "C) Jahangir", "D) Shah Jahan"],
+      answer: "A) Akbar",
+    },
+    {
+      question: "What significant structure did Shah Jahan build in memory of his wife?",
+      options: ["A) Red Fort", "B) Taj Mahal", "C) Jama Masjid", "D) Peacock Throne"],
+      answer: "B) Taj Mahal",
+    },
+    {
+      question: "In which year did Bakhtiar Khilji defeat Lakshman Sena to establish Muslim rule in Bengal?",
+      options: ["A) 1204", "B) 1215", "C) 1342", "D) 1526"],
+      answer: "A) 1204",
+    },
+    {
+      question: "Which text by Abul Fazl provides a detailed description of Akbar's administration?",
+      options: ["A) Tuzk-e-Jahangiri", "B) Baburnama", "C) Akbarnama", "D) Ain-i-Akbari"],
+      answer: "D) Ain-i-Akbari",
+    },
+    {
+      question: "Who was the Mughal emperor when the English first came to establish trade in India?",
+      options: ["A) Akbar", "B) Jahangir", "C) Shah Jahan", "D) Aurangzeb"],
+      answer: "B) Jahangir",
+    },
+    {
+      question: "Which dynasty marked the 'Golden Age' of Bengal Sultanate art and culture?",
+      options: ["A) Ilyas Shahi Dynasty", "B) Khalji Dynasty", "C) Hussain Shahi Dynasty", "D) Lodi Dynasty"],
+      answer: "C) Hussain Shahi Dynasty",
+    },
+    {
+      question: "Who built the Adina Mosque, the largest mosque in the Indian subcontinent at that time?",
+      options: ["A) Haji Ilyas", "B) Sikandar Shah", "C) Alauddin Hussain Shah", "D) Babur"],
+      answer: "B) Sikandar Shah",
+    },
+    {
+      question: "The famous copper plate inscription of the Khalimpur mentions which dynasty?",
+      options: ["A) Maurya Dynasty", "B) Pala Dynasty", "C) Gupta Dynasty", "D) Sena Dynasty"],
+      answer: "B) Pala Dynasty",
+    },
+  ];
   
   
   

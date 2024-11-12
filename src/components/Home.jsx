@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { quizData1, quizData2 } from "../data/quizData";
+import { quizData1, quizData2, quizData3 } from "../data/quizData";
 
 const Home = ({ startQuiz }) => {
   const navigate = useNavigate();
@@ -13,26 +13,35 @@ const Home = ({ startQuiz }) => {
   };
 
   return (
-    <div className="w-full max-w-lg mx-auto px-12 py-28 bg-blue-400 rounded-xl shadow-lg transform transition-all duration-500 ease-in-out hover:scale-105 space-y-6 text-center">
-      <h2 className="text-3xl font-semibold text-white tracking-tight">
-        Choose a Quiz
-      </h2>
-      
-      <div className="space-y-4">
+    <div className="flex items-center justify-center ">
+      <div className="bg-white rounded-3xl shadow-2xl p-10 max-w-md w-full text-center">
+        
+        {/* Heading */}
+        <h2 className="text-2xl font-bold text-gray-800 mb-4">Welcome to the Quiz App!</h2>
+        <p className="text-gray-600 mb-8">Choose a quiz below to test your knowledge .</p>
+
+        {/* Quiz Selection Buttons */}
+        <div className="space-y-4">
         <button
-          onClick={() => handleQuizSelection(quizData1)}
-          className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-4 focus:ring-blue-500"
-          aria-label="Start Mughal Empire Quiz"
-        >
-          Mughal Empire Quiz
-        </button>
-        <button
-          onClick={() => handleQuizSelection(quizData2)}
-          className="w-full bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg transform transition-all duration-300 ease-in-out hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-4 focus:ring-green-500"
-          aria-label="Start Decline of Mughal Empire Quiz"
-        >
-          Decline of Mughal Empire Quiz
-        </button>
+            onClick={() => handleQuizSelection(quizData3)}
+            className="w-full bg-purple-500 text-white py-3 rounded-lg font-semibold shadow-md hover:bg-purple-600 transition"
+          >
+            Sunday Quiz
+          </button>
+          <button
+            onClick={() => handleQuizSelection(quizData1)}
+            className="w-full bg-blue-500 text-white py-3 rounded-lg font-semibold shadow-md hover:bg-blue-600 transition"
+          >
+            Mughal Empire Quiz
+          </button>
+          <button
+            onClick={() => handleQuizSelection(quizData2)}
+            className="w-full bg-green-500 text-white py-3 rounded-lg font-semibold shadow-md hover:bg-green-600 transition"
+          >
+            Decline of Mughal Empire Quiz
+          </button>
+          
+        </div>
       </div>
     </div>
   );
